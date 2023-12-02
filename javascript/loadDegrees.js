@@ -5,7 +5,7 @@
 async function getDegreeInfo() {
 
     // url variable of where the JSON file is being hosted on via Glitch
-    let url = ('https://met-cs601-hw5-farmer.glihttps://vermillion-puffpuff-5faf02.netlify.app/json/my_degrees.json');
+    let url = ('https://vermillion-puffpuff-5faf02.netlify.app/json/my_degrees.json');
 
     try {
         // call fetch on the url and await the return of the promise and store it in a 

@@ -5,7 +5,7 @@
 async function getDegreeInfo() {
 
     // url variable of where the JSON file is being hosted on via Glitch
-   let url = ('/api/my_degrees.json');
+   let url = ('/json/my_degrees.json');
 
     try {
         // call fetch on the url and await the return of the promise and store it in a 

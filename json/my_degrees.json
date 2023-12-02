@@ -1,0 +1,14 @@
+[
+    {
+        "school": "Boston University",
+        "programName": "Computer Science",
+        "programType": "Master of Science (MS)",
+        "yearConferred": 2024
+    },
+    {
+        "school": "East China University of Science and Technology",
+        "programName": "Computer Science",
+        "programType": "Bachelor of Science (BS)",
+        "yearConferred": 2022
+    }
+]

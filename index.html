@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Degrees | Wenxiao Zhou</title>
+    <link href="style/style.css" rel="stylesheet">
+    <script src="javascript/loadDegrees.js"></script>
+</head>
+
+<body>
+    <!--header of page-->
+    <div class="header">
+        <header>
+            <h1>Wenxiao Zhou - Degree Information</h1>
+        </header>
+    </div>
+    <!--degree info-->
+    <div class="degreeInfo">
+        <img src="images/cap_logo.png" alt="Graduation Cap Icon" height="200" width="200">
+        <!--degree info button to call function to load data from web server-->
+        <div class="button">
+            <button type="button" id="button" onclick="loadDegreeInfo();">Click to View Degree Information</button>
+        </div>
+        <!--degree info table that holds the data from the web server-->
+        <table id="degree_table">
+            <tr>
+                <th>School</th>
+                <th>Program Name</th>
+                <th>Program Type</th>
+                <th>Year Conferred</th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
